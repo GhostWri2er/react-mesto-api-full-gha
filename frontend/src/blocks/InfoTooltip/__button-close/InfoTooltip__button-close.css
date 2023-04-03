@@ -1,0 +1,21 @@
+.InfoTooltip__button-close {
+    position: absolute;
+    background-image: url(../../../images/CloseIcon.svg);
+    width: 32px;
+    height: 32px;
+    top: -40px;
+    right: -40px;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    text-shadow: none;
+    border: 0;
+    background-color: rgba(0, 125, 215, 0);
+    color: #fff;
+    transition: opacity 0.2s linear;
+}
+
+
+.popup__button-close:hover {
+  opacity: 0.6;
+}

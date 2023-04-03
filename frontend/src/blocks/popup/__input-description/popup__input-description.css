@@ -1,0 +1,17 @@
+.popup__input-description {
+  font-size: 14px;
+  width: 238px;
+  border: 0;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  padding-bottom: 13px;
+}
+
+@media screen and (min-width: 1024px) {
+  .popup__input-description {
+    width: 358px;
+}
+}
+
+

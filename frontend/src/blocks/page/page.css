@@ -1,0 +1,13 @@
+body {
+  background-color: #000;
+}
+
+.page {
+  color: #fff;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  background-color: #000;
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}

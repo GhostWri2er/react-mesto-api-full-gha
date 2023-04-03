@@ -1,0 +1,9 @@
+.card__like_container {
+    color: #000;
+    margin: 22px 20px;
+    width: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

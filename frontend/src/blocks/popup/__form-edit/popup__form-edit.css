@@ -1,0 +1,8 @@
+.popup__form-edit {
+  display: flex;
+  min-width: 295px;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-content: center;
+}

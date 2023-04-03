@@ -1,0 +1,24 @@
+.popup__container-FullScreen {
+  max-width: 240px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .popup__container-FullScreen{
+    max-width: 433px;
+    height: 540px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .popup__container-FullScreen{
+    max-width: 816px;
+    height: 540px;
+  }
+}

@@ -1,0 +1,9 @@
+.popup__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-content: center;
+}
+
+

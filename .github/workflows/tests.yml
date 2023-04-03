@@ -17,7 +17,7 @@ jobs:
     - name: Use Node.js 14.x
       uses: actions/setup-node@v3
       with:
-        node-version: 18.x
+        node-version: 16.x
     - name: Сheck if the repository is private
       run: exit 1
       if: ${{github.event.repository.private}}
@@ -48,7 +48,7 @@ jobs:
     - name: Use Node.js 14.x
       uses: actions/setup-node@v3
       with:
-        node-version: 18.x
+        node-version: 16.x
     - name: Сheck if the repository is private
       run: exit 1
       if: ${{github.event.repository.private}}

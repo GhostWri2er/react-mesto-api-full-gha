@@ -91,5 +91,5 @@ app.use(errors()); // обработчик ошибок celebrate
 
 app.listen(PORT, () => {
   // Если всё работает, консоль покажет, какой порт приложение слушает
-  console.log(`App listening on port ${PORT}`);
+  console.log(`App1 listening on port ${PORT}`);
 });

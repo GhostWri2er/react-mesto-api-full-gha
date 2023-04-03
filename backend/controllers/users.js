@@ -1,7 +1,7 @@
 /* eslint-disable consistent-return */
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const jwtSecret = process.env.JWT_SECRET;
+//const jwtSecret = process.env.JWT_SECRET;
 
 const User = require('../models/user');
 
@@ -117,7 +117,7 @@ const login = (req, res) => {
   const { email, password } = req.body;
   return User.findUserByCredentials(email, password)
     .then((user) => {
-      const token = jwt.sign({ _id: user._id }, jwtSecret, { expiresIn: '7d' });
+      const token = jwt.sign({ _id: user._id }, 'some-secret-key', { expiresIn: '7d' });
       // res
       //   .cookie('jwt', token, {
       //     maxAge: 24 * 7 * 3600,

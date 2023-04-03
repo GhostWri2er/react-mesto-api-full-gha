@@ -4,12 +4,10 @@
   
 Пожалуйста, прикрепите в это описание ссылку на сайт, размещенный на Яндекс.Облаке.
 
-Адрес репозитория: https://github.com/...
+Адрес репозитория: https://github.com/GhostWri2er
 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
-
-Frontend https://...
-
-Backend https://...
+IP  51.250.18.65
+Frontend  https://mesto.ghostwriter.nomoredomains.work/
+Backend  https://api.mesto.ghostwriter.nomoredomains.work/
